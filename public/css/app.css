@@ -39,7 +39,7 @@ h1{
     padding: .5rem;
     background-color: rgb(112, 212, 252);
     width: 200px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .back:hover{
     background-color: rgb(112, 184, 252);
