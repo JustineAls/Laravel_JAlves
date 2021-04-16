@@ -1,11 +1,11 @@
 @extends('layouts/layout')
 
-@section('title', 'Delete')
+@section('title', 'Deleted successfully')
 
 @section('main')
-<div class="task-list">
+<div class="task-list success">
     Task {{ $id }} has been deleted successfully!
 
-    <a class="back" href="/">Home</a>
+    <a class="back" href="/" title="Return to homepage (Current tab)">Home</a>
 </div>
 @endsection
